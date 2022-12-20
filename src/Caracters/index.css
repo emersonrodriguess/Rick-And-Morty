@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto", sem serifa;
+}
+
+.personagem {
+  background-color: #202329;
+  width: 33.3%;
+}
+
+@media (max-width: 768px) {
+  .personagem {
+    width: 100%;
+  }
+}
+
+.personagens-waper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.container-personagens {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #202329;
+}
+.personagem img {
+  max-width: 90%;
+  display: flex;
+  margin-top: 20%;
+  justify-content: space-evenly;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  background-color: #202329;
+  color: aliceblue;
+  font-size: 30px;
+  margin-top: 9%;
+}
+
+.characteres {
+  font-size: 29px;
+  font-style: "Roboto", sem serifa;
+  margin-block-start: -25%;
+  max-width: 90%;
+  color: whitesmoke;
+  background-color: #3c3e44;
+  position: relative;
+}
