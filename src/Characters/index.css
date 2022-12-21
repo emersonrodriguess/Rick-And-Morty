@@ -1,7 +1,3 @@
-body {
-  font-family: "Roboto", sem serifa;
-}
-
 .personagem {
   background-color: #202329;
   width: 33.3%;
@@ -26,7 +22,7 @@ body {
   background-color: #202329;
 }
 .personagem img {
-  max-width: 90%;
+  max-width: 93%;
   display: flex;
   margin-top: 20%;
   justify-content: space-evenly;
@@ -35,18 +31,34 @@ body {
 .title {
   display: flex;
   justify-content: center;
+  text-align: center;
   background-color: #202329;
   color: aliceblue;
-  font-size: 30px;
-  margin-top: 9%;
+  font-size: 20px;
+  margin-top: 7%;
 }
 
-.characteres {
-  font-size: 29px;
-  font-style: "Roboto", sem serifa;
-  margin-block-start: -25%;
-  max-width: 90%;
+.characteres--container {
+  display: flex;
+  flex-direction: column;
+
+  margin-block-start:-25%;
+  max-width: 84%;
   color: whitesmoke;
   background-color: #3c3e44;
   position: relative;
+  padding: 4.5%;
+}
+.name {
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 14px;
+  margin-left: 5%;
+}
+
+.species {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 10px;
+  margin-left: 5%;
 }
