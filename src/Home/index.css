@@ -1,21 +1,23 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 15%;
-  color: #ffffff;
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14%;
+    color: #ffffff;
+    text-align: center;
+    
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
 
-  font-weight: 800;
-  font-style: normal;
-  font-size: 40px;
-}
+  }
 
 .botao {
   font-weight: bold;
   font-family: "Roboto";
   display: flex;
   align-self: center;
-  margin-top: 140%;
+  margin-top: 135%;
   padding: 15px 24px;
   cursor: pointer;
   background: #ffffff;

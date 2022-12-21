@@ -3,11 +3,11 @@ import "./index.css";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const message = "Rick And Morty Characters";
   return (
     <>
       <div className="container">
-        {message}
+        <h1> Rick And Morty 
+          <br></br>Personagens</h1>
         <Link to="/characters">
           <div className="button">
             <button className="botao">Ver Personagens</button>
